@@ -1,12 +1,10 @@
 #include <iostream>
 #include <cmath>
-
 using namespace std;
 int main()
 {
-
     short a = 1000;
-    float b = 0.0001, c, d, e, f, g;
+    double b = 0.0001, c, d, e, f, g;
     c = pow((a - b), 3);
     d = pow(a, 3);
     e = pow(a, 2);
