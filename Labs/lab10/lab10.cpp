@@ -49,6 +49,7 @@ void CleanArray(int *&arr1, int &size, const int k)
 int main()
 {
     srand(time(NULL));
+    setlocale(LC_ALL, "rus");
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
     srand(time(NULL));
